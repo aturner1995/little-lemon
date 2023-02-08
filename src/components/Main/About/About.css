@@ -1,0 +1,42 @@
+.about-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 10%;
+}
+
+.about-left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-areas:
+    "title"
+    "sub"
+    "desc";
+  padding-left: 15%;
+}
+
+.about-title {
+  grid-area: title;
+  font-size: 64px;
+  display: flex;
+  align-items: flex-end;
+}
+.about-sub {
+  grid-area: sub;
+  font-size: 40px;
+  color: #f4ce14;
+}
+.about-description {
+  grid-area: desc;
+}
+
+.about-img1 {
+  width: 400px;
+  height: 400px;
+  margin-left: 80px;
+  background-image: url(/src/images/head_chef.jpg);
+  background-size: cover;
+  z-index: 1;
+  border-radius: 25px;
+}

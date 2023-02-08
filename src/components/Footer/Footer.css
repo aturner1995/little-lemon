@@ -1,0 +1,47 @@
+.footer-container {
+  width: 100%;
+  margin: auto;
+  padding: 2% 10%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "image nav . contact . social";
+  background-color: white;
+  color: black;
+  border-top: 2px solid black;
+}
+
+.footer-image {
+  background-image: url(/src/images/logo.jpg);
+  grid-area: image;
+  width: 300px;
+  height: 140px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-nav {
+  grid-area: nav;
+}
+
+.fnav-title,
+.contact-title,
+.social-title {
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.footer-contact {
+  grid-area: contact;
+}
+
+.footer-social {
+  grid-area: social;
+}
+
+ul li {
+  list-style: none;
+}
+
+
