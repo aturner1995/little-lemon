@@ -1,4 +1,4 @@
-# Coursera
+# Coursera Little Lemon Website
 
 ### `npm start`
 
