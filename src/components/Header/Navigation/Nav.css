@@ -1,0 +1,27 @@
+.nav-container {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 2fr 7fr;
+  }
+  
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    padding-left: 15%;
+  }
+  
+  .logo {
+    /* background-image: url(/src/images/Logo.svg); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 140px;
+    cursor: pointer;
+  }
+  
